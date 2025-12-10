@@ -1,8 +1,0 @@
-- name: prepare survey
-  tasks:
-    - name: execute ls -1 
-      command: ls -1
-      register: ls_output
-    - name: show ls_output
-      debug:
-        msg: "{{ ls_output.stdout_lines }}"
