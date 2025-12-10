@@ -1,4 +1,5 @@
 - name: prepare survey
+  hosts: localhost
   tasks:
     - name: execute ls -1 
       command: ls -1
